@@ -1,4 +1,4 @@
-require_relative "../lib/student.rb"
+filter_parameter_loggingrequire_relative "../lib/student.rb"
 
 Student.create(name: "Melissa", grade: "10th")
 Student.create(name: "April", grade: "10th")
