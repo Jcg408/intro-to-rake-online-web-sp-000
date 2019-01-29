@@ -20,7 +20,10 @@ namespace :greeting do
 end
 
 namespace :db do
-  
+  desc 'seed the database with some dummy data'
+  task :seed do 
+    require_relative './db/seeds.rb'
+  end
   
   desc 'migrate changes to your database'
   task :migrate => :environment do 
